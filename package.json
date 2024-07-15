@@ -1,0 +1,30 @@
+{
+  "name": "user-management-service",
+  "version": "1.0.0",
+  "description": "Online learnig platform for devs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willygru/CodeCraftHub.git"
+  },
+  "keywords": [
+    "microservices",
+    "nodejs",
+    "user-service"
+  ],
+  "author": "William Gruintal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willygru/CodeCraftHub/issues"
+  },
+  "homepage": "https://github.com/willygru/CodeCraftHub#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1"
+  }
+}
