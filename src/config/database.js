@@ -10,7 +10,7 @@ const User = require('../models/userModel');
 const connectDB = async () => {
   try {
     // Attempt to connect to the MongoDB instance with the provided URI
-    await mongoose.connect('mongodb://root:Mjk3NTYtd2lsbHln@localhost:27017');
+    await mongoose.connect('mongodb://root:MTI0NjAtd2lsbHln@localhost:27017');
     
     // Alternative connection URI (commented out)
     // await mongoose.connect('mongodb://root:Mjk3NTYtd2lsbHln@localhost:127.0.0.1');
